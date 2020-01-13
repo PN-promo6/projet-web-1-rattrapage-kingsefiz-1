@@ -1,0 +1,778 @@
+@media(max-width : 430px) {
+  html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  body {
+    position: static;
+    box-sizing: border-box;
+    top: 78px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+    max-width: 640px;
+    margin: 0;
+    top: 0;
+    border-top: 5px solid black;
+    background: white;
+  }
+
+  /* Version Desktop */
+  .nav-bar, .suggestions, .row, .slider, .categories, .description, .selection, .newsletter,.download, #home, #location, #search, #user, #glass-desktop {
+    display: none;
+  }
+
+  /* Règles Titre */
+  .title {
+    font-size: 2em;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    padding-left: 50px;
+    text-align: center;
+  }
+
+  /* Hero + Description */
+  .primary_header img {
+    margin: 0 8px;
+    margin-top: 5px;
+  }
+
+  /* Header Mobile */
+
+  .mobile-header {
+    display: block;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 2px solid #f6f6f6;
+  }
+
+  .mobile-header strong {
+    font-size: 1.1em;
+    width: 100%;
+  }
+
+  .promo {
+    font-size: 8px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border: none;
+  }
+
+  .mobile-header p {
+    text-align: center;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 0.9em;
+  }
+
+  .mobile-header img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  #selection {
+    background-color: Black;
+    border: none;
+    padding: 20px;
+    color: white;
+    position: stretch;
+  }
+
+  /* Logos Header */
+  #menu, #glass-mobile {
+    margin-top: 0px;
+  }
+
+  #menu {
+    margin-left: 10px;
+    max-width: 18px;
+  }
+
+  #menu, #glass-mobile {
+    display: block;
+  }
+
+  .right-block {
+    margin-right: 5px;
+  }
+
+  .right-block img {
+    max-width: 20px;
+  }
+
+  /* Nouvelle Collection */
+
+  .new-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .products {
+    display: none;
+  }
+
+  .mobile-products {
+    display: block;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .mobile-product1, .mobile-product2, .mobile-product3 {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid #f6f6f6;
+    margin-bottom: 20px;
+  }
+
+  .mobile-product1 img, .mobile-product2 img, .mobile-product3 img {
+    max-width: 80%;
+  }
+
+  .mobile-product1 p, .mobile-product2 p, .mobile-product3 p {
+    font-size: .8em;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .mobile-product1 a, .mobile-product2 a, .mobile-product3 a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .mobile-shoes1, .mobile-leather-bag, .mobile-wallet, .mobile-shoes2 {
+    border: 2px solid #f6f6f6;
+    margin-bottom: 20px;
+  }
+
+  .mobile-products article:hover img {
+    transform: none;
+  }
+
+  .section-title {
+    display : none;
+  }
+
+  .mobile-order, .order {
+    margin: 20px auto;
+    margin-top: 10px;
+    font-size: 20px !important;
+    background-color: black;
+    color: white !important;
+    width: 25%;
+    padding: 10px !important;
+    width: 50%;
+  }
+
+  .heart {
+    padding-top: 3px !important;
+  }
+
+  /* Rangée de Produits Mobile */
+  .mobile-selection {
+    margin-top: 0;
+  }
+
+  .mobile-row {
+    width: 80%;
+    max-width: 160rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .mobile-row p, .mobile-row a {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .mobile-row article {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .mobile-row img {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+
+  .mobile-row article p {
+    width: 70%;
+    margin: 1% auto;
+    text-align: center;
+  }
+
+  .mobile-row article a {
+    font-size: .8em;
+    text-align: center;
+    padding-left: 0;
+    color: black;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px !important;
+  }
+
+  /* Colonnes Footer Mobile */
+
+  .columns {
+    flex-direction: column;
+  }
+
+  /* newsletter */
+
+  .mobile-newsletter {
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+  }
+
+  .mobile-newsletter button {
+    background-color: #f6f6f6;
+    border: 2px solid white;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    color: black;
+    padding-top: 3.7%;
+    padding-bottom: 3%;
+    padding-right: 3.5%;
+    padding-left: 2.5%;
+  }
+
+  button span {
+    font-size: 15px;
+  }
+
+  #mail-field {
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    padding: 3%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    position: relative;
+    text-align: center;
+  }
+
+  /* Icones Réseaux Sociaux */
+  .icons {
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  /* Règles Liens */
+
+  .new, .mobile-selection, .by-style-mobile {
+    display: block !important;
+    text-align: center;
+    padding: 15px;
+    background-color: Black;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    z-index: 3;
+  }
+
+  /* Shop By Style */
+
+  .by-style {
+    z-index: 3;
+  }
+
+  .style-container {
+    flex-direction: column;
+  }
+
+  .style-container article {
+    width: 100%;
+    border-bottom: 2px solid #f6f6f6;
+  }
+
+  .style1:hover img, .style2:hover img, .style3:hover img, .style4:hover img {
+    transform: none;
+  }
+
+  .order {
+    margin-bottom: 20px !important;
+  }
+
+  /* Trouver un Magasin */
+
+  .location p {
+    font-size: 20px;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Liste mobile */
+
+  .mobile-categories {
+    display: block;
+    list-style: none;
+    color: Black;
+    background-color: white;
+    text-align: justify;
+    z-index: 3;
+  }
+
+  .mobile-categories ul {
+    margin: 20px 31%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .mobile-categories ul a, .mobile-categories ul li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 20px auto;
+  }
+
+  .mobile-categories ul li {
+    border-bottom: 2px solid #f6f6f6;
+  }
+
+  /* Bouton Retour Haut de Page */
+
+  #anchor {
+    position: fixed;
+    bottom: 2.5rem;
+    right: 1rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    border: white 1px solid;
+    font-size: 1.2rem;
+    transition: 0.9s;
+    color: white;
+    background-color: transparent;
+  }
+
+  #anchor:hover {
+    transform: none;
+  }
+
+}
+
+@media(min-width : 430px) and (max-width: 640px) {
+  html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  body {
+    position: static;
+    box-sizing: border-box;
+    top: 78px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+    max-width: 640px;
+    margin: 0;
+    top: 0;
+    border-top: 5px solid black;
+    background: white;
+  }
+
+  /* Version Desktop */
+  .nav-bar, .suggestions, .row, .slider, .categories, .description, .selection, .newsletter,.download, #home, #location, #search, #user, #glass-desktop {
+    display: none;
+  }
+
+  /* Règles Titre */
+  .title {
+    font-size: 35px;
+    margin-top: -10px;
+    margin-right: 0px;
+    padding-left: 50px;
+    text-align: center;
+  }
+
+  /* Hero + Description */
+  .primary_header img {
+    max-width: 24px;
+    margin-top: -5px;
+  }
+
+  /* Header Mobile */
+
+  .mobile-header {
+    display: block;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 2px solid #f6f6f6;
+  }
+
+  .mobile-header strong {
+    font-size: 20px;
+  }
+
+  .promo {
+    font-size: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border: none;
+  }
+
+  .mobile-header p {
+    text-align: center;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .mobile-header img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  #selection {
+    background-color: Black;
+    border: none;
+    padding: 20px;
+    color: white;
+    position: stretch;
+  }
+
+  /* Logos Header */
+  #menu, #glass-mobile {
+    margin-top: -10px;
+  }
+
+  #menu {
+    margin-left: 20px;
+    max-width: 22px;
+  }
+
+  #menu, #glass-mobile {
+    display: block;
+  }
+
+  .right-block {
+    margin-right: 10px;
+  }
+
+  /* Nouvelle Collection */
+
+  .new-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .products {
+    display: none;
+  }
+
+  .mobile-products {
+    display: block;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .mobile-product1, .mobile-product2, .mobile-product3 {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid #f6f6f6;
+    margin-bottom: 20px;
+  }
+
+  .mobile-product1 img, .mobile-product2 img, .mobile-product3 img {
+    max-width: 80%;
+  }
+
+  .mobile-product1 p, .mobile-product2 p, .mobile-product3 p {
+    font-size: 1em;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .mobile-product1 a, .mobile-product2 a, .mobile-product3 a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .mobile-shoes1, .mobile-leather-bag, .mobile-wallet, .mobile-shoes2 {
+    border: 2px solid #f6f6f6;
+    margin-bottom: 20px;
+  }
+
+  .mobile-products article:hover img {
+    transform: none;
+  }
+
+  .mobile-order, .order {
+    margin: 20px auto;
+    margin-top: 10px;
+    font-size: 20px !important;
+    background-color: black;
+    color: white !important;
+    width: 25%;
+    padding: 10px !important;
+    width: 50%;
+  }
+
+  .section-title {
+  display : none;
+}
+
+  .heart {
+    padding-top: 3px !important;
+  }
+
+  /* Rangée de Produits Mobile */
+  .mobile-selection {
+    margin-top: 0;
+  }
+
+  .mobile-row {
+    width: 80%;
+    max-width: 160rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .mobile-row p, .mobile-row a {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .mobile-row article {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .mobile-row img {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+
+  .mobile-row article p {
+    width: 70%;
+    margin: 1% auto;
+    text-align: center;
+  }
+
+  .mobile-row article a {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 0;
+    color: black;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px !important;
+  }
+
+  /* Colonnes Footer Mobile */
+
+  .columns {
+    flex-direction: column;
+  }
+
+
+  .mobile-newsletter button {
+    background-color: #f6f6f6;
+    border: 2px solid white;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    color: black;
+    padding-top: 3.7%;
+    padding-bottom: 3%;
+    padding-right: 3.5%;
+    padding-left: 2.5%;
+  }
+
+  button span {
+    font-size: 15px;
+  }
+
+  #mail-field {
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    padding: 3%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    position: relative;
+    text-align: center;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+  /* Icones Réseaux Sociaux */
+  .icons {
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  /* Règles Liens */
+
+  .new, .mobile-selection, .by-style-mobile{
+    display: block !important;
+    text-align: center;
+    padding: 15px;
+    background-color: Black;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    z-index: 3;
+  }
+
+  /* Shop By Style */
+
+  .by-style {
+    z-index: 3;
+  }
+
+  .style-container {
+    flex-direction: column;
+  }
+
+  .style-container article {
+    width: 100%;
+    border-bottom: 2px solid #f6f6f6;
+  }
+
+  .style1:hover img, .style2:hover img, .style3:hover img, .style4:hover img {
+    transform: none;
+  }
+
+  .order {
+    margin-bottom: 20px !important;
+  }
+
+  /* Trouver un Magasin */
+
+  .location p {
+    font-size: 20px;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Liste mobile */
+
+  .mobile-categories {
+    display: block;
+    list-style: none;
+    color: Black;
+    background-color: white;
+    text-align: justify;
+    z-index: 3;
+  }
+
+  .mobile-categories ul {
+    margin: 20px 31%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .mobile-categories ul a, .mobile-categories ul li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 20px auto;
+  }
+
+  .mobile-categories ul li {
+    border-bottom: 2px solid #f6f6f6;
+  }
+
+  /* Bouton Retour Haut de Page */
+
+  #anchor {
+    position: fixed;
+    bottom: 2.5rem;
+    right: 1rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    border: white 1px solid;
+    font-size: 1.2rem;
+    transition: 0.9s;
+    color: white;
+    background-color: transparent;
+  }
+
+  #anchor:hover {
+    transform: none;
+  }
+}
